@@ -12,10 +12,6 @@ Something to consider: Dataset values are ussually taked as char
 ## Documentation links:
 
 ## Study Case: What advertising method is better?
-<<<<<<< HEAD
-=======
-
->>>>>>> 0f313a2678754fd4df0778429d79df729a5f4983
 A company has been investing in three advertising channels for a new product and, after the first trimester, they want to analyze
 through an R statistical study what inversion has been relevant for sales increasing. Predict sales based on the money spent on different 
 marketing plattforms.
@@ -27,8 +23,8 @@ marketing plattforms.
 
 
 ![scatter plot for TV&Sales relationship.](./image/tv-sales-lrplot.png)
-<<<<<<< HEAD
+
 ![Summary for TV&Sales statistical values.](./image/tv-sales-summary.png)
 =======
 ![Summary for TV&Sales statistical values.](./image/tv-sales-summary.png)
->>>>>>> 0f313a2678754fd4df0778429d79df729a5f4983
+
