@@ -4,38 +4,37 @@ library(knitr)
 library(ggplot2)
 
 # construct path to file
-fpath = file.path("customer_shopping_data.csv")
+#fpath = file.path("ad.csv")
+ad_df <- read.csv("advertising.csv")
+
+head(ad_df, 5)
+attach(ad_df)
+
+#Correlation: determines whether a variable can influence other 
+#variable´s value.
+cor(TV, Sales)
+
+# graphical output of value dispersion between two variables.In this case is 
+# used to study the tendency of data to make accurate prediction of the 
+# tendencies
+plot(TV, Sales)
+
+simple_reg = lm(Sales~TV)
+summary(simple_reg)
 
 
-# Read CSV File
-shopping_df = read.csv(fpath)
 
-#age = read.table(shopping_df["age"])
+cor(Radio, Sales)
 
-kable(shopping_df, caption = "data")
+plot(Radio, Sales) 
 
-df = select(shopping_df, age, quantity)
-
-summary(df)
-
-ggplot(data = datos) + geom_point(aes(x = x, y = y), col='blue')
-
-#x <- shopping_df[, 4]
-#y <- shopping_df[, 6]
-
-#quant = shopping_df["quantity"]
-# Study Cases:
-# Quantity in function of age
-# 
+simple_reg2 = lm(Sales~Radio)
+summary(simple_reg2)
 
 
-#lmQuantity = lm(quantity~age, data = shopping_df) #Create the linear regression
-#summary(lmQuantity)
+cor(Newspaper, Sales)
 
-#lmPrice2 = lm(quantity~price, data = shopping_df) #Create the linear regression
-#summary(lmPrice2)
+plot(Newspaper, Sales)
 
-#print(x)
-#plot(y, pch = 16, col = "blue") #Plot the results
-#abline(lmPrice2) #Add a regression line
-
+simple_reg3 = lm(Sales~Newspaper)
+summary(simple_reg3)
