@@ -7,3 +7,8 @@ Explaining how to understand the statistical values and a conclusion.
 ## Study Case: What advertising method is better?
  
 - Dataset source: [advertising](https://www.kaggle.com/code/ashydv/sales-prediction-simple-linear-regression/notebook)
+
+## Ourput
+
+### TV vs Sales Study
+![scatter plot for TV&Sales relationship.](./image/tv-sales-lrplot.png)
