@@ -18,7 +18,7 @@ marketing plattforms.
 - Dataset source: [advertising](https://www.kaggle.com/code/ashydv/sales-prediction-simple-linear-regression/notebook)
 
 ## Output
-
+[**Youtube Video Demostration**](https://youtu.be/v5_0txqPFZE)
 ### TV vs Sales Study
 
 
@@ -28,4 +28,4 @@ marketing plattforms.
 =======
 ![Summary for TV&Sales statistical values.](./image/tv-sales-summary.png)
 
-[**Video Demostration**](https://youtu.be/v5_0txqPFZE)
+
