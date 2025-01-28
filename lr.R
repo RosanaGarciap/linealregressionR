@@ -1,7 +1,11 @@
+#Load/Import R Libraries
 library(readr)
 library(dplyr)
 library(knitr)
 library(ggplot2)
+
+#Importing customized libraries
+source("functions.R")
 
 # construct path to file
 #fpath = file.path("ad.csv")
@@ -17,24 +21,14 @@ cor(TV, Sales)
 # graphical output of value dispersion between two variables.In this case is 
 # used to study the tendency of data to make accurate prediction of the 
 # tendencies
+
 plot(TV, Sales)
 
 simple_reg = lm(Sales~TV)
 summary(simple_reg)
 
+#Display statistical values with customized function
+displayStatisticalData(Radio, Sales)
+displayStatisticalData(Newspaper, Sales)
 
 
-cor(Radio, Sales)
-
-plot(Radio, Sales) 
-
-simple_reg2 = lm(Sales~Radio)
-summary(simple_reg2)
-
-
-cor(Newspaper, Sales)
-
-plot(Newspaper, Sales)
-
-simple_reg3 = lm(Sales~Newspaper)
-summary(simple_reg3)

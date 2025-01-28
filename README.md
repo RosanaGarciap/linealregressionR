@@ -23,8 +23,8 @@ marketing plattforms.
 
 
 ![scatter plot for TV&Sales relationship.](./image/tv-sales-lrplot.png)
-
+<<<<<<< HEAD
 ![Summary for TV&Sales statistical values.](./image/tv-sales-summary.png)
 =======
 ![Summary for TV&Sales statistical values.](./image/tv-sales-summary.png)
-
+>>>>>>> 0f313a2678754fd4df0778429d79df729a5f4983
