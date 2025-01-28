@@ -7,7 +7,6 @@ Something to consider: Dataset values are ussually taked as char
 
 * **readr**: Provide a fast and friendly way to read rectangular data from delimited files, such as comma-separated values (CSV) and tab-separated values (TSV1). This library was used to load the information stored at advertising.csv file.
 * **dplyr**: This library allows programmers to access to  constraining functions that allows make special selections over a dataframe, just like constrains in Database programming.
-* **knitr**
 * **ggplot2**: Used for data visualization. The user provides a set of points to map variables to aesthetics, implememting graphical primitives it takes care of details such as interval, colors and so.
 
 ## Documentation links:
